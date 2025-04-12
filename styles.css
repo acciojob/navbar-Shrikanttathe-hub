@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+nav{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	background-color:#6e072d;
+	color:white;
+}
+nav ul{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	gap:20px;
+	list-style:none
+}
+nav ul li{
+	padding:10px 20px;
+	font-size:18px;
+}
+
+nav ul li:hover{
+	background-color:#b90e4d;
+	cursor:pointer;
+}
+nav ul li{
+	border-right: 2px solid white;
+}
+nav ul li:last-child{
+	border-right:none;
+}
