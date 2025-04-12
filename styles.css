@@ -17,11 +17,11 @@ nav ul{
 nav ul li{
 	padding:10px 20px;
 	font-size:18px;
+	cursor:pointer;
 }
 
 nav ul li:hover{
 	background-color:#b90e4d;
-	cursor:pointer;
 }
 nav ul li{
 	border-right: 2px solid white;
